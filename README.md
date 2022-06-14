@@ -10,7 +10,7 @@
 
 ![](calc.gif)
 ---
-# Used Techs
+# Main Techs Concepts
 
 [ReactJS](https://reactjs.org/)
 
