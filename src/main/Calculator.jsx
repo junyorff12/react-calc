@@ -34,7 +34,25 @@ function Calculator() {
       const newValues = [...values];
 
       try {
-        newValues[0] = eval(`${newValues[0]} ${calcOperation} ${newValues[1]}`);
+        let res = 0;
+        switch (calcOperation) {
+          case '+':
+            res = newValues[0] + newValues[1];
+            break;
+          case '-':
+            res = newValues[0] - newValues[1];
+            break;
+          case '/':
+            res = newValues[0] / newValues[1];
+            break;
+          case '*':
+            res = newValues[0] * newValues[1];
+            break;
+
+          default:
+            break;
+        }
+        newValues[0] = res;
       } catch (error) {
         newValues[0] = values[0];
       }
