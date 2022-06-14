@@ -3,7 +3,7 @@
 
 # Basic calculator made with ReactJs from cod3r´s react & redux course
 ---
-## Originaly this was made with classes but I decided to refactor with React Hooks 💙:
+## Originaly this was made with JS Classes but I decided to refactor to React Hooks 💙:
 ---
 
 
